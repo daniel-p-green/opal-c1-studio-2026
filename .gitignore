@@ -1,0 +1,15 @@
+.build/
+.cache/
+dist/
+__pycache__/
+*.pyc
+.codex/
+work/*.json
+work/*.md
+work/*.txt
+work/*.jpg
+work/quality-bench/
+work/visual-proof/
+work/c1-root-probe.md
+*.dmg
+.DS_Store
