@@ -149,6 +149,7 @@ So the project is retired as a product bet.
 - `script/build_and_run.sh`: local build/run/probe entrypoint.
 - `docs/`: focused notes for camera doctor, benchmarks, hardware controls, Opal bridge probing, and OBS output.
 - `opal-c1-findings.md`: sanitized investigation notes.
+- `docs/execution-postmortem.md`: what went well, where the project overspent effort, and the restart plan.
 - `docs/public-disclaimer.md`: public safety and affiliation disclaimer.
 - `LICENSE`: MIT license.
 
