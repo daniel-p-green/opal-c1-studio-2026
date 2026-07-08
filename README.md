@@ -8,6 +8,8 @@ The final decision is intentionally blunt:
 
 **Do not keep investing in the C1 as a serious 2026 daily webcam. Use Apple Studio Display for convenience, or iPhone Continuity Camera when quality matters.**
 
+This is an independent project. It is not affiliated with or endorsed by Opal Camera Inc. See [Public Disclaimer](docs/public-disclaimer.md).
+
 ## Why This Exists
 
 The Opal C1 hardware is still detectable on macOS, but Opal Composer 2 no longer supports it. Older Opal software can make parts of the stack appear, but the camera is unreliable and the official software path is effectively abandoned.
@@ -147,6 +149,8 @@ So the project is retired as a product bet.
 - `script/build_and_run.sh`: local build/run/probe entrypoint.
 - `docs/`: focused notes for camera doctor, benchmarks, hardware controls, Opal bridge probing, and OBS output.
 - `opal-c1-findings.md`: sanitized investigation notes.
+- `docs/public-disclaimer.md`: public safety and affiliation disclaimer.
+- `LICENSE`: MIT license.
 
 ## Run Locally
 
@@ -190,6 +194,7 @@ The default workflows are read-only with respect to firmware and installed Opal 
 - No privileged installer execution.
 - No bundled Opal binaries.
 - No hardware writes unless explicitly enabled for a controlled experiment.
+- Generated `work/` reports can contain local paths, device names, captures, and serial-like identifiers. Review before sharing.
 
 ## Reopen Criteria
 
